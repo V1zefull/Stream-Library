@@ -2,6 +2,7 @@
 import headerComp from "./components/headerCompinent/header.vue";
 import footerComp from "./components/footerComponent/footer.vue";
 import mainComp from "./page/mainPage/main.vue";
+import chat from "./components/chatComponent/chat.vue";
 </script>
 
 <template>
