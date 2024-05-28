@@ -22,7 +22,6 @@ import chat from "./components/chatComponent/chat.vue";
 
 <style scoped lang="scss">
 .container {
-  position: relative;
   width: 100%;
   &__header {
     display: flex;
@@ -33,13 +32,11 @@ import chat from "./components/chatComponent/chat.vue";
     width: 100%;
   }
   &__main{
-    height: fit-content;
+    height: 40em;
     background: #ffffff;
     width: 100%;
   }
   &__footer {
-    position: absolute;
-    bottom: 0;
     display: flex;
     align-items: center;
     height: fit-content;
