@@ -1,7 +1,7 @@
 <template>
     <div class="footer-container">
       <div class="footer-container__navigation">
-        <span>@ BroadCastLib By Egor Borovlev</span>
+        <span>&#174 BroadCastLib By Egor Borovlev</span>
       </div>
       <div class="header-container__OtherComponents">
         
@@ -21,6 +21,7 @@
   
   <style lang="scss" scoped>
   .footer-container {
+    border-top: 1px solid rgba(0, 0, 0, 0.336);
     width: 100%;
     display: flex;
     justify-content: space-around;

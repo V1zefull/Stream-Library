@@ -45,6 +45,10 @@ export default {
   align-items: center;
   background: #2779a7;
   height: fit-content;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.336);
+  h1{
+    margin-right: 15px;
+  }
   &__navigation {
     display: flex;
     width: 90%;
@@ -62,6 +66,7 @@ export default {
     padding: 15px;
     &:hover {
       background: #4789af;
+      cursor: pointer;
     }
   }
 }

@@ -32,7 +32,7 @@ import chat from "./components/chatComponent/chat.vue";
     width: 100%;
   }
   &__main{
-    height: 40em;
+    height: 0;
     background: #ffffff;
     width: 100%;
   }
